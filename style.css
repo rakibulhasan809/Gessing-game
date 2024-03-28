@@ -1,0 +1,75 @@
+/* fontStyle */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Merriweather", serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 40%;
+    height: 50%;
+    background-color: rgb(0, 153, 255);
+    padding:1rem;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgb(26, 25, 25);
+    transition: all 0.3s ease;
+}
+.card:hover{
+    box-shadow: 0 0 7px rgb(26, 25, 25);
+}
+.card-title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.card-body{
+    text-align: center;
+}
+.form-filed{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.form-filed input[type="number"]{
+    width:45%;
+    outline: none;
+    border: none;
+    color: black;
+    border:0.9px solid dimgray;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+.bottons{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 4rem;
+}
+.btn{
+    width:80px;
+    height: 30px;
+    font-size: 14px;
+    color: black;
+    border:none;
+    border:0.8px solid black;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(19, 18, 18);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: wheat;
+}
